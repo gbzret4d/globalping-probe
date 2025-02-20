@@ -1481,7 +1481,7 @@ describe('http command', () => {
 					rawOutput: 'Invalid URL - ERR_INVALID_URL',
 					truncated: false,
 					statusCode: null,
-					statusCodeName: null,
+					statusCodeName: '',
 				},
 				testId: 'test',
 			});
@@ -1544,7 +1544,7 @@ describe('http command', () => {
 					rawOutput: 'cache error - ERR_CACHE_ACCESS',
 					truncated: false,
 					statusCode: null,
-					statusCodeName: null,
+					statusCodeName: '',
 				},
 				testId: 'test',
 			});
@@ -1607,7 +1607,7 @@ describe('http command', () => {
 					rawOutput: 'cache error - ERR_CACHE_ACCESS',
 					truncated: false,
 					statusCode: null,
-					statusCodeName: null,
+					statusCodeName: '',
 				},
 				testId: 'test',
 			});
